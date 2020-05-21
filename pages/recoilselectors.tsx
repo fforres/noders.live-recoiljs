@@ -30,7 +30,7 @@ const List: React.FC<any> = () => {
   const elements = useRecoilValue(filteredElements);
   return (
     <Box>
-      {elements?.map((el: DatumType) => (
+      {elements.map((el: DatumType) => (
         <p key={el.id}>
           <span>🗣 {el.userName}</span>
           <br />
