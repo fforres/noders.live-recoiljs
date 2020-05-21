@@ -7,9 +7,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/faker": "^4.1.12",
+    "faker": "^4.1.0",
     "next": "latest",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "recoil": "^0.0.7",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
